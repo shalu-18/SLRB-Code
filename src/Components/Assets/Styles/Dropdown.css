@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.dropdownn {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    color: black;
+}
+
+.dropdownn:hover {
+    border: 1px solid skyblue;
+}
+.droplist_value{
+    font-family: 'Open Sans';
+}
+
+.labelstyle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: rgb(26, 25, 25);
+
+}
+
+.upload-btn-wrapper {
+
+    position: relative;
+
+    overflow: hidden;
+
+    /* display: inline-block; */
+
+}
+
+.btn1 {
+
+    border: none;
+
+    color:#FF0F18;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    background-color: white;
+
+}
+
+.upload-btn-wrapper input[type=file] {
+
+    font-size: 100px;
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    opacity: 0;
+
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.Top_Div {
+    width: 95%;
+    font-family: 'Open Sans';
+    padding: 1%;
+    overflow: hidden;
+    /* overflow-y: auto;
+    max-height: 100px;  */
+
+}
+
+input {
+    font-family: 'Open Sans';
+    color: black
+}
+
+.TopHaddings {
+    color: #185184;
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* margin-top: 2%; */
+    font-weight: bolder;
+
+}
+
+/* CSS For UserLayout */
+.commonstyle {
+
+    height: 100%;
+
+    width: 100%;
+
+    position: fixed;
+
+    /* background-color: red; */
+
+}
+
+.sidebarstyle {
+
+    background-color: black;
+
+    padding: 0px;
+
+    /* max-height: 20vh; */
+
+    overflow-x: hidden;
+
+    height: auto;
+
+    /* Hide horizontal scrollbar */
+
+    overflow-x: hidden;
+
+}
+
+/* Backbtn */
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.contentbarstyle {
+    height: 90%;
+   
+    overflow-x: scroll;
+
+    overflow-y: scroll;
+}
+
+.my-card-text {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    list-style: none;
+    overflow-wrap: normal;
+    text-decoration: none;
+    /* font-style: normal; */
+}
+
+.my-card-text2 {
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    list-style: none;
+    overflow-wrap: normal;
+    text-decoration: none;
+    /* font-style: normal; */
+}
+
+a {
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+h6 {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: black;
+}
+
+.my-card-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-transform: capitalize;
+    overflow-wrap: normal;
+    letter-spacing: -0.5px;
+}
+
+
+.my-error-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+    text-transform: capitalize;
+    overflow-wrap: normal;
+}
+
+.Nopropertyheading {
+    color: red;
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* margin-top: 2%; */
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #FF0F18;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #FF0F18;
+    color: white;
+}
+
+.activetab {
+    --bs-breadcrumb-divider: '>';
+
+}
+
+
+
+.breadcrumb {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+}
+
+.breadcrumb-item:hover{
+    color: #FF0F18;
+    font-family: 'Open Sans';
+    font-weight: 400;
+
+}

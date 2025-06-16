@@ -1,0 +1,23 @@
+
+.slider {
+    width: 300px;
+
+}
+.sliderimg {
+    width: 300px;
+    height: 200px;
+}
+
+.line {
+    height: 30rem;
+}
+
+.container {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .Lineimg {
+        display: none;
+    }
+}

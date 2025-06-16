@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.view_div {
+    width: 80vw;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: black;
+    margin: auto;
+    padding: 1rem;
+    background-color: aqua;
+}
+
+.view_main_div {
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: black;
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    border-radius: 1rem;
+    padding: 1rem;
+}

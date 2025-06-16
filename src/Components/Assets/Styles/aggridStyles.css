@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+.ag-theme-alpine {
+  --ag-background-color: white;
+  --ag-header-foreground-color: white;
+  --ag-header-background-color: #FF0F18;
+  --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+  --ag-header-column-resize-handle-color: #FF0F18;
+
+  --ag-font-size: 16px;
+  --ag-font-family: 'Open Sans';
+  --ag-font-weight: 400;
+}
+
+/* .ag-header-cell-label {
+  justify-content: center;
+} */

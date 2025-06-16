@@ -1,0 +1,68 @@
+{
+  "name": "slrp-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^5.0.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ag-grid-community": "^29.0.0",
+    "ag-grid-react": "^29.0.0",
+    "antd": "^5.1.1",
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "buffer": "^6.0.3",
+    "formik": "^2.2.9",
+    "jimp": "^0.16.2",
+    "jotai": "^2.0.0",
+    "json-server": "^0.17.1",
+    "otp-verification": "^1.1.2",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-loader-spinner": "^5.3.4",
+    "react-multi-carousel": "^2.8.2",
+    "react-pdf": "^6.2.2",
+    "react-phone-number-input": "^3.2.13",
+    "react-router-dom": "^6.6.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-up-button": "^1.6.4",
+    "react-select": "^5.7.0",
+    "react-spinner": "^0.2.7",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.1",
+    "web-vitals": "^2.1.4",
+    "yap": "^0.0.2",
+    "yup": "^0.28.5"
+  },
+  "scripts": {
+    "dev": "json-server --watch  ./src/DB/db.json --port 5000",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

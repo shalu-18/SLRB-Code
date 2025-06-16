@@ -1,0 +1,45 @@
+.landingpage {
+    background-image: url('../Images/buyerLandingPage.png');
+    height: 15rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    overflow: hidden
+}
+
+.TopText {
+    color: white;
+    font-weight: 500;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.form-group {
+    margin: 0 !important;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.dropdownbox {
+    width: 10rem;
+    border: none;
+    border-radius: 5%;
+
+}
